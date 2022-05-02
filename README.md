@@ -40,8 +40,8 @@ This version is still beta.  Please create an issue for any requests or bugs and
 
 ## Authors
 
-Hank Mason
-https://hankthemason.com
+Hank Mason      
+https://hankthemason.com      
 [@your_american_cousin](https://instagram.com/your_american_cousin)
 
 
