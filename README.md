@@ -25,7 +25,7 @@ You need Max/MSP to run this patch.  The patch was made in Max/MSP, but most of 
 
 ### MIDI configuration
 
-- You will need to do some coniguration to make sure that your patch is sending MIDI messages to the correct channel
+- You will need to do some configuration to make sure that your patch is sending MIDI messages to the correct channel
 - If your are using the patch as a subpatch inside another patch, you can give it the option `@midiChan` argument to specify the ER-1's MIDI channel
 - If using the patch in standalone, open it unlocked in patching mode and give the [nrpnout] object the correct MIDI channel
 
