@@ -21,7 +21,7 @@ You need Max/MSP to run this patch.  The patch was made in Max/MSP, but most of 
 ### Executing program
 
 - Make sure your path settings inside Max allow all the files in this directory to be discover-able (Options > File Preferences)
-- You can open `er1-controller.maxpat` as a standalone patch, or instantiate it as an subpatch in another patch
+- You can open `er1-controller.maxpat` as a standalone patch, or instantiate it as a subpatch in another patch
 
 ### MIDI configuration
 
