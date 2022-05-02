@@ -1,0 +1,55 @@
+{
+  "vco1": {
+    "lowBoost": 0,
+    "pan": 0,
+    "pitch": 0,
+    "wave": 0,
+    "modType": 0,
+    "modSpeed": 0,
+    "modDepth": 0,
+    "level": 0,
+    "decay": 0
+  },
+  "vco2": {
+    "lowBoost": 0,
+    "pan": 0,
+    "pitch": 0,
+    "wave": 0,
+    "modType": 0,
+    "modSpeed": 0,
+    "modDepth": 0,
+    "level": 0,
+    "decay": 0
+  },
+  "vco3": {
+    "lowBoost": 0,
+    "pan": 0,
+    "pitch": 0,
+    "wave": 0,
+    "modType": 0,
+    "modSpeed": 0,
+    "modDepth": 0,
+    "level": 0,
+    "decay": 0
+  },
+  "vco4": {
+    "lowBoost": 0,
+    "pan": 0,
+    "pitch": 0,
+    "wave": 0,
+    "modType": 0,
+    "modSpeed": 0,
+    "modDepth": 0,
+    "level": 0,
+    "decay": 0
+  },
+  "hhClose": { "lowBoost": 0, "pan": 0, "pitch": 0, "level": 0, "decay": 0 },
+  "hhOpen": { "lowBoost": 0, "pan": 0, "pitch": 0, "level": 0, "decay": 0 },
+  "crash": { "lowBoost": 0, "pan": 0, "pitch": 0, "level": 0, "decay": 0 },
+  "clap": { "lowBoost": 0, "pan": 0, "pitch": 0, "level": 0, "decay": 0 },
+  "audioIn1": { "lowBoost": 0, "pan": 0, "level": 0, "decay": 0, "gain": 0 },
+  "audioIn2": { "lowBoost": 0, "pan": 0, "level": 0, "decay": 0, "gain": 0 },
+  "mute": { "vco": 0, "sampleAndAudio": 0 },
+  "solo": { "vco": 79, "sampleAndAudio": 127 },
+  "global": { "delayDepth": 0, "delayTime": 0, "ringMod1": 0, "ringMod2": 0 }
+}

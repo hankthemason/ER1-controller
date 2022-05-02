@@ -1,0 +1,14 @@
+{
+  "mute": {
+    "vco": 365,
+    "sampleAndAudio": 366
+  },
+  "solo": {
+    "vco": 365,
+    "sampleAndAudio": 366
+  },
+  "delayDepth": 356,
+  "delayTime": 357,
+  "ringMod1": 358,
+  "ringMod2": 359
+}
