@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-257",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 118.857300999999893, -541.0, 150.0, 60.0 ],
+					"text" : "if not using 'midiChan' arg, send a message with the  ER-1's midi channel to [nrpnout]'s right-most inlet"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-216",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 366.0, -791.0, 90.0, 22.0 ],
+					"text" : "route midiChan"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-114",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 366.0, -821.0, 54.0, 22.0 ],
+					"text" : "sel done"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-101",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 247.0, -850.0, 138.0, 22.0 ],
+					"text" : "patcherargs @midiChan"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-326",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -74,7 +122,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 761.714601999999786, -656.5, 369.0, 33.0 ],
-					"presentation_linecount" : 4,
 					"text" : "for example: \n\"Macintosh HD:/Users/username/presets/\""
 				}
 
@@ -110,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 761.714601999999786, -738.0, 150.0, 74.0 ],
+					"patching_rect" : [ 761.714601999999786, -738.0, 153.0, 74.0 ],
 					"text" : "you can update the [opendialog] with an absolute path to wear you keep your .json presets for the ER-1 "
 				}
 
@@ -183,7 +230,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 693.0, -779.0, 112.0, 22.0 ],
-					"presentation_linecount" : 5,
 					"text" : "readStateFromDisk"
 				}
 
@@ -351,18 +397,6 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 508.5, -485.600007236003876, 68.0, 22.0 ],
 					"text" : "notein a 10"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-109",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.0, -556.800000250339508, 29.5, 22.0 ],
-					"text" : "10"
 				}
 
 			}
@@ -7418,6 +7452,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-114", 0 ],
+					"source" : [ "obj-101", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-352", 0 ],
 					"source" : [ "obj-102", 0 ]
 				}
@@ -7467,13 +7508,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-90", 3 ],
-					"source" : [ "obj-109", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -7504,6 +7538,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-249", 0 ],
 					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-216", 0 ],
+					"source" : [ "obj-114", 1 ]
 				}
 
 			}
@@ -8447,6 +8488,14 @@
 					"destination" : [ "obj-340", 0 ],
 					"midpoints" : [ 862.888888888888914, -107.0, 518.0, -107.0 ],
 					"source" : [ "obj-215", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 3 ],
+					"midpoints" : [ 375.5, -548.0, 88.0, -555.0 ],
+					"source" : [ "obj-216", 0 ]
 				}
 
 			}
@@ -11121,189 +11170,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10" : [ "HH OPEN - MUTE[1]", "HH OPEN - MUTE", 0 ],
-			"obj-104" : [ "none[61]", "Low Boost", 0 ],
-			"obj-105" : [ "none[63]", "Pan", 0 ],
-			"obj-111" : [ "none[62]", "Level", 0 ],
-			"obj-112" : [ "none[64]", "Decay", 0 ],
-			"obj-117" : [ "none[80]", "Low Boost", 0 ],
-			"obj-118" : [ "none[92]", "Pan", 0 ],
-			"obj-12" : [ "CRASH - MUTE[1]", "CRASH - MUTE", 0 ],
-			"obj-123" : [ "none[65]", "Gain", 0 ],
-			"obj-124" : [ "none[103]", "Level", 0 ],
-			"obj-125" : [ "none[131]", "Mod Depth", 0 ],
-			"obj-128" : [ "AUDIO IN 2 - SOLO[1]", "AUDIO IN 2 - SOLO", 0 ],
-			"obj-129" : [ "AUDIO IN 2 - MUTE[1]", "AUDIO IN 2 - MUTE", 0 ],
-			"obj-13" : [ "CLAP - MUTE[1]", "CLAP - MUTE", 0 ],
-			"obj-130" : [ "none[56]", "Low Boost", 0 ],
-			"obj-131" : [ "none[59]", "Pan", 0 ],
-			"obj-132" : [ "none[58]", "Level", 0 ],
-			"obj-133" : [ "none[57]", "Decay", 0 ],
-			"obj-134" : [ "none[60]", "Gain", 0 ],
-			"obj-14" : [ "VCO 1 - SOLO[1]", "VCO 1 - SOLO", 0 ],
-			"obj-161" : [ "live.button[23]", "live.button", 0 ],
-			"obj-165" : [ "live.button[25]", "live.button", 0 ],
-			"obj-171" : [ "none[143]", "Mod Speed", 0 ],
-			"obj-172" : [ "none[113]", "Decay", 0 ],
-			"obj-173" : [ "none[125]", "live.tab", 0 ],
-			"obj-186" : [ "live.button[22]", "live.button", 0 ],
-			"obj-188" : [ "none[133]", "live.tab", 0 ],
-			"obj-197" : [ "none[10]", "Mod Speed", 0 ],
-			"obj-198" : [ "none[126]", "Mod Depth", 0 ],
-			"obj-202" : [ "none[134]", "Pitch", 0 ],
-			"obj-204" : [ "none[22]", "Low Boost", 0 ],
-			"obj-205" : [ "none[21]", "Pan", 0 ],
-			"obj-206" : [ "none[20]", "Level", 0 ],
-			"obj-207" : [ "none[19]", "Decay", 0 ],
-			"obj-208" : [ "none[18]", "live.tab", 0 ],
-			"obj-211" : [ "none[91]", "live.tab", 0 ],
-			"obj-212" : [ "none[124]", "Mod Speed", 0 ],
-			"obj-213" : [ "none[132]", "Mod Depth", 0 ],
-			"obj-218" : [ "none[142]", "Pitch", 0 ],
-			"obj-220" : [ "none[82]", "live.tab", 0 ],
-			"obj-221" : [ "none[30]", "Low Boost", 0 ],
-			"obj-222" : [ "none[29]", "Pan", 0 ],
-			"obj-223" : [ "none[28]", "Level", 0 ],
-			"obj-230" : [ "live.button[24]", "live.button", 0 ],
-			"obj-235" : [ "none[115]", "live.tab", 0 ],
-			"obj-236" : [ "none[104]", "Decay", 0 ],
-			"obj-237" : [ "none[93]", "Level", 0 ],
-			"obj-238" : [ "none[81]", "Pan", 0 ],
-			"obj-239" : [ "none[139]", "Low Boost", 0 ],
-			"obj-244" : [ "none[31]", "Decay", 0 ],
-			"obj-246" : [ "none[27]", "live.tab", 0 ],
-			"obj-249" : [ "none[32]", "live.tab", 0 ],
-			"obj-250" : [ "none[33]", "Mod Speed", 0 ],
-			"obj-251" : [ "none[34]", "Mod Depth", 0 ],
-			"obj-252" : [ "none[89]", "Pitch", 0 ],
-			"obj-254" : [ "GLOBAL - RING MOD 2[1]", "GLOBAL - RING MOD 2", 0 ],
-			"obj-26" : [ "VCO 2 - SOLO[1]", "VCO 2 - SOLO", 0 ],
-			"obj-267" : [ "none[40]", "Pitch", 0 ],
-			"obj-268" : [ "none[38]", "Decay", 0 ],
-			"obj-269" : [ "none[39]", "Level", 0 ],
-			"obj-27" : [ "VCO 3 - SOLO[1]", "VCO 3 - SOLO", 0 ],
-			"obj-270" : [ "none[37]", "Pan", 0 ],
-			"obj-271" : [ "none[36]", "Low Boost", 0 ],
-			"obj-272" : [ "none[41]", "Low Boost", 0 ],
-			"obj-273" : [ "none[42]", "Pan", 0 ],
-			"obj-274" : [ "none[43]", "Level", 0 ],
-			"obj-275" : [ "none[44]", "Decay", 0 ],
-			"obj-276" : [ "none[45]", "Pitch", 0 ],
-			"obj-278" : [ "none[51]", "Low Boost", 0 ],
-			"obj-279" : [ "none[52]", "Pan", 0 ],
-			"obj-28" : [ "VCO 4 - SOLO[1]", "VCO 4 - SOLO", 0 ],
-			"obj-280" : [ "none[53]", "Level", 0 ],
-			"obj-281" : [ "none[54]", "Decay", 0 ],
-			"obj-282" : [ "none[55]", "Pitch", 0 ],
-			"obj-284" : [ "none[46]", "Low Boost", 0 ],
-			"obj-285" : [ "none[49]", "Pan", 0 ],
-			"obj-286" : [ "none[48]", "Level", 0 ],
-			"obj-287" : [ "none[47]", "Decay", 0 ],
-			"obj-288" : [ "none[50]", "Pitch", 0 ],
-			"obj-3" : [ "VCO 4 - MUTE[1]", "VCO 4 - MUTE", 0 ],
-			"obj-35" : [ "HH CLOSE - SOLO[1]", "HH CLOSE - SOLO", 0 ],
-			"obj-36" : [ "HH OPEN - SOLO[1]", "HH OPEN - SOLO", 0 ],
-			"obj-37" : [ "CRASH - SOLO[1]", "CRASH - SOLO", 0 ],
-			"obj-38" : [ "CLAP - SOLO[1]", "CLAP - SOLO", 0 ],
-			"obj-41" : [ "GLOBAL - RING MOD 1[1]", "GLOBAL - RING MOD 1", 0 ],
-			"obj-43" : [ "live.button[26]", "live.button", 0 ],
-			"obj-44" : [ "live.button[17]", "live.button", 0 ],
-			"obj-45" : [ "live.button[18]", "live.button", 0 ],
-			"obj-47" : [ "live.button[19]", "live.button", 0 ],
-			"obj-48" : [ "live.button[20]", "live.button", 0 ],
-			"obj-49" : [ "live.button[21]", "live.button", 0 ],
-			"obj-5" : [ "VCO 3 - MUTE[1]", "VCO 3 - MUTE", 0 ],
-			"obj-54" : [ "none[110]", "Time", 0 ],
-			"obj-55" : [ "none[121]", "Depth", 0 ],
-			"obj-6" : [ "VCO 2 - MUTE[1]", "VCO 2 - MUTE", 0 ],
-			"obj-7" : [ "VCO 1 - MUTE[1]", "VCO 1 - MUTE", 0 ],
-			"obj-8" : [ "none[83]", "Pitch", 0 ],
-			"obj-9" : [ "HH CLOSE - MUTE[1]", "HH CLOSE - MUTE", 0 ],
-			"obj-97" : [ "AUDIO IN 1 - SOLO[1]", "AUDIO IN 1 - SOLO", 0 ],
-			"obj-98" : [ "AUDIO IN 1 - MUTE[1]", "AUDIO IN 1 - MUTE", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "down.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "er1-controller-script.js",
-				"bootpath" : "~/Code/Max/ER-1-controller/scripts",
-				"patcherrelativepath" : "./scripts",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "noise.png",
-				"bootpath" : "~/Code/Max/ER-1-controller/assets",
-				"patcherrelativepath" : "./assets",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "saw.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sine.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "square.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "updown.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "PAt_style0",
 				"default" : 				{
