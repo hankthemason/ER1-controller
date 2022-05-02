@@ -1,16 +1,14 @@
 const maxApi = require("max-api");
 
 const presetTemplate = require("./configs/presetTemplate.json");
-
-const checkSoloStateAndMuteState = require("./utils/checkSoloStateAndMuteState");
-
-const { receiveNrpn, updateState } = require("./utils/handleEr1Change");
 const {
+  checkSoloStateAndMuteState,
+  receiveNrpn,
+  updateState,
   updateMuteAndSoloState,
   findAndSendNrpns,
-} = require("./utils/handleUIChange");
-
-const getVoiceType = require("./utils/getVoiceType");
+  getVoiceType,
+} = require("./utils");
 
 const {
   writeChordToDisk,
@@ -18,8 +16,6 @@ const {
   writeStateToDisk,
   readStateFromDisk,
 } = require("./readAndWrite");
-
-const makeVoiceName = require("./utils/makeVoiceName");
 
 let muteAndSoloState = {
   mute: {

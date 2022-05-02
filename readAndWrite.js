@@ -2,7 +2,7 @@ const fs = require("fs");
 const maxApi = require("max-api");
 const voiceMap = require("./configs/voiceMap.json");
 const globalParams = require("./configs/globalParams.json");
-const handleIncomingMuteOrSolo = require("./utils/handleEr1Change/handleIncomingMuteOrSolo");
+const { handleIncomingMuteOrSolo } = require("./utils/");
 
 const numVCOs = 4;
 
