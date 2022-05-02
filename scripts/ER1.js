@@ -1,6 +1,6 @@
 const maxApi = require("max-api");
-const globalParams = require("./configs/globalParams.json");
-const voiceMap = require("./configs/voiceMap.json");
+const globalParams = require("../configs/globalParams.json");
+const voiceMap = require("../configs/voiceMap.json");
 
 const numVCOs = 4;
 

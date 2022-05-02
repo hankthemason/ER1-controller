@@ -3,7 +3,7 @@ const globalParams = require("../../configs/globalParams.json");
 const getVoiceType = require("../../utils/getVoiceType");
 const sampleAndAudioVoices = require("../../configs/sampleAndAudioVoices.json");
 
-const ER1 = require("../../ER1");
+const ER1 = require("../../scripts/ER1");
 
 const findAndSendNrpns = (voiceName, param, val, muteAndSoloState = null) => {
   let outputVal;

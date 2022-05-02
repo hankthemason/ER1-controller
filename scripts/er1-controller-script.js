@@ -1,6 +1,7 @@
 const maxApi = require("max-api");
 
-const presetTemplate = require("./configs/presetTemplate.json");
+const presetTemplate = require("../configs/presetTemplate.json");
+
 const {
   checkSoloStateAndMuteState,
   receiveNrpn,
@@ -8,7 +9,7 @@ const {
   updateMuteAndSoloState,
   findAndSendNrpns,
   getVoiceType,
-} = require("./utils");
+} = require("../utils");
 
 const {
   writeChordToDisk,
@@ -76,10 +77,6 @@ maxApi.addHandler("incomingFromEr1", (val, nrpn) => {
 });
 
 //READ/WRITE OPERATIONS
-maxApi.addHandler("writeChordToDisk", () => {
-  writeChordToDisk(chords, state);
-});
-
 maxApi.addHandler("writeStateToDisk", (filePath) => {
   writeStateToDisk(state, filePath);
 });
