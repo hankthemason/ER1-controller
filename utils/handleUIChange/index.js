@@ -1,4 +1,5 @@
 const voiceMap = require("../../configs/voiceMap.json");
+const globalParams = require("../../configs/globalParams.json");
 const getVoiceType = require("../../utils/getVoiceType");
 const sampleAndAudioVoices = require("../../configs/sampleAndAudioVoices.json");
 

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 314.0, -835.0, 1027.0, 761.0 ],
+		"rect" : [ 55.0, 228.0, 1352.0, 493.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3914,7 +3914,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[94]",
+							"parameter_longname" : "none[56]",
 							"parameter_shortname" : "Low Boost",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -3942,7 +3942,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 64 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[76]",
+							"parameter_longname" : "none[59]",
 							"parameter_shortname" : "Pan",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -3970,7 +3970,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[88]",
+							"parameter_longname" : "none[58]",
 							"parameter_shortname" : "Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -3997,7 +3997,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[99]",
+							"parameter_longname" : "none[57]",
 							"parameter_mmax" : 63.0,
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
@@ -4025,7 +4025,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[109]",
+							"parameter_longname" : "none[60]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
@@ -4127,7 +4127,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[105]",
+							"parameter_longname" : "none[61]",
 							"parameter_shortname" : "Low Boost",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -4155,7 +4155,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 64 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[116]",
+							"parameter_longname" : "none[63]",
 							"parameter_shortname" : "Pan",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -4183,7 +4183,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[117]",
+							"parameter_longname" : "none[62]",
 							"parameter_shortname" : "Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -4210,7 +4210,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[127]",
+							"parameter_longname" : "none[64]",
 							"parameter_mmax" : 63.0,
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
@@ -4238,7 +4238,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[135]",
+							"parameter_longname" : "none[65]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
@@ -5119,7 +5119,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[77]",
+							"parameter_longname" : "none[46]",
 							"parameter_shortname" : "Low Boost",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5147,7 +5147,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 64 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[95]",
+							"parameter_longname" : "none[49]",
 							"parameter_shortname" : "Pan",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5175,7 +5175,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[122]",
+							"parameter_longname" : "none[48]",
 							"parameter_shortname" : "Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5202,7 +5202,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[78]",
+							"parameter_longname" : "none[47]",
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5229,7 +5229,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[106]",
+							"parameter_longname" : "none[50]",
 							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5270,7 +5270,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[84]",
+							"parameter_longname" : "none[51]",
 							"parameter_shortname" : "Low Boost",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5298,7 +5298,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 64 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[111]",
+							"parameter_longname" : "none[52]",
 							"parameter_shortname" : "Pan",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5326,7 +5326,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[136]",
+							"parameter_longname" : "none[53]",
 							"parameter_shortname" : "Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5353,7 +5353,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[96]",
+							"parameter_longname" : "none[54]",
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5380,7 +5380,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[123]",
+							"parameter_longname" : "none[55]",
 							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5421,7 +5421,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[100]",
+							"parameter_longname" : "none[41]",
 							"parameter_shortname" : "Low Boost",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5449,7 +5449,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 64 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[128]",
+							"parameter_longname" : "none[42]",
 							"parameter_shortname" : "Pan",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5477,7 +5477,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[85]",
+							"parameter_longname" : "none[43]",
 							"parameter_shortname" : "Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5504,7 +5504,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[112]",
+							"parameter_longname" : "none[44]",
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5531,7 +5531,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[137]",
+							"parameter_longname" : "none[45]",
 							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5572,7 +5572,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[118]",
+							"parameter_longname" : "none[36]",
 							"parameter_shortname" : "Low Boost",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5600,7 +5600,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 64 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[140]",
+							"parameter_longname" : "none[37]",
 							"parameter_shortname" : "Pan",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5628,7 +5628,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[101]",
+							"parameter_longname" : "none[39]",
 							"parameter_shortname" : "Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5655,7 +5655,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[129]",
+							"parameter_longname" : "none[38]",
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5682,7 +5682,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[86]",
+							"parameter_longname" : "none[40]",
 							"parameter_shortname" : "Pitch",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5737,7 +5737,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[119]",
+							"parameter_longname" : "none[30]",
 							"parameter_shortname" : "Low Boost",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5765,7 +5765,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 64 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[141]",
+							"parameter_longname" : "none[29]",
 							"parameter_shortname" : "Pan",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5793,7 +5793,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[102]",
+							"parameter_longname" : "none[28]",
 							"parameter_shortname" : "Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5820,7 +5820,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[130]",
+							"parameter_longname" : "none[31]",
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5851,7 +5851,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "saw", "square", "triangle", "S&H", "noise", "envelope" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[120]",
+							"parameter_longname" : "none[27]",
 							"parameter_mmax" : 5,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -5913,7 +5913,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "square", "sine" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[107]",
+							"parameter_longname" : "none[32]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 1,
@@ -5942,7 +5942,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[138]",
+							"parameter_longname" : "none[33]",
 							"parameter_shortname" : "Mod Speed",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -5969,7 +5969,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[79]",
+							"parameter_longname" : "none[34]",
 							"parameter_shortname" : "Mod Depth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -6036,7 +6036,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[97]",
+							"parameter_longname" : "none[22]",
 							"parameter_shortname" : "Low Boost",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -6064,7 +6064,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 64 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[87]",
+							"parameter_longname" : "none[21]",
 							"parameter_shortname" : "Pan",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -6092,7 +6092,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[98]",
+							"parameter_longname" : "none[20]",
 							"parameter_shortname" : "Level",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -6119,7 +6119,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[108]",
+							"parameter_longname" : "none[19]",
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -6150,7 +6150,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "saw", "square", "triangle", "S&H", "noise", "envelope" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[90]",
+							"parameter_longname" : "none[18]",
 							"parameter_mmax" : 5,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
@@ -6529,7 +6529,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "none[114]",
+							"parameter_longname" : "none[10]",
 							"parameter_shortname" : "Mod Speed",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -10432,10 +10432,10 @@
 					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 						"color2" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ]
+						"type" : "gradient"
 					}
 ,
 					"clearcolor" : [ 1.0, 0.947758, 0.687073, 1.0 ],
@@ -10448,7 +10448,9 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+		"bgcolor" : [ 0.243137254901961, 0.243137254901961, 0.243137254901961, 1.0 ],
+		"editing_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1.0 ]
 	}
 
 }

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 270.0, -858.0, 887.0, 774.0 ],
+		"rect" : [ 321.0, -921.0, 887.0, 774.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,66 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 677.0, 119.5, 90.0, 22.0 ],
+					"text" : "route midiChan"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 642.0, 90.0, 54.0, 22.0 ],
+					"text" : "sel done"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 523.0, 59.0, 138.0, 22.0 ],
+					"text" : "patcherargs @midiChan"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.0, 2.0, 35.0, 22.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.0, 26.0, 51.0, 22.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
@@ -97,19 +157,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 246.0, 6.0, 50.0, 22.0 ],
-					"text" : "midiin a"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 77.0, 340.0, 32.0, 22.0 ],
-					"text" : "print"
+					"patching_rect" : [ 246.0, 6.0, 40.0, 22.0 ],
+					"text" : "midiin"
 				}
 
 			}
@@ -119,8 +168,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 340.0, 57.0, 22.0 ],
-					"text" : "midiout a"
+					"patching_rect" : [ 12.0, 340.0, 47.0, 22.0 ],
+					"text" : "midiout"
 				}
 
 			}
@@ -192,7 +241,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 121.5, 245.0, 400.0, 220.0 ],
+					"patching_rect" : [ 102.0, 344.0, 400.0, 220.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -263,7 +312,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -588,16 +636,43 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"order" : 1,
-					"source" : [ "obj-27", 0 ]
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 3 ],
+					"midpoints" : [ 757.5, 212.0, 103.5, 212.0 ],
+					"source" : [ "obj-18", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -902,8 +977,8 @@
 			}
 , 			{
 				"name" : "er1-ui.maxpat",
-				"bootpath" : "~/Code/Max/gran-env-copy/er1-chord-generator",
-				"patcherrelativepath" : "../gran-env-copy/er1-chord-generator",
+				"bootpath" : "~/Code/Max/ER-1-controller",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -928,8 +1003,8 @@
 			}
 , 			{
 				"name" : "noise.png",
-				"bootpath" : "~/Code/Max/gran-env-copy/er1-chord-generator",
-				"patcherrelativepath" : "../gran-env-copy/er1-chord-generator",
+				"bootpath" : "~/Code/Max/ER-1-controller/assets",
+				"patcherrelativepath" : "./assets",
 				"type" : "PNG",
 				"implicit" : 1
 			}
