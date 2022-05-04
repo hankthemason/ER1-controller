@@ -6,7 +6,7 @@ This is a Max/MSP patch that can be used as a virtual interface for the Korg Ele
 
 ## Description
 
-You need Max/MSP to run this patch.  The patch was made in Max/MSP, but most of the heavy lifting is done by the Node.js scripts in the `scripts` folder, which are integrated with Max through the [node.js] object.
+You need Max/MSP to run this patch.  The patch was made in Max/MSP, but most of the heavy lifting is done by the Node.js scripts in the `scripts` folder, which are integrated with Max through the [node.script] object.
 
 ## Getting Started
 
@@ -26,8 +26,8 @@ You need Max/MSP to run this patch.  The patch was made in Max/MSP, but most of 
 ### MIDI configuration
 
 - You will need to do some configuration to make sure that your patch is sending MIDI messages to the correct channel
-- If your are using the patch as a subpatch inside another patch, you can give it the option `@midiChan` argument to specify the ER-1's MIDI channel
-- If using the patch in standalone, open it unlocked in patching mode and give the [nrpnout] object the correct MIDI channel
+- If your are using the patch as a subpatch inside another patch, you can give it the optional `@midiChan` argument to specify the ER-1's MIDI channel
+- If using the patch in standalone mode, open it unlocked in patching mode and give the [nrpnout] object the correct MIDI channel
 
 ### read/write configuration
 
